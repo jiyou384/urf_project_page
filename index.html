@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="PROJECT_TITLE - PROJECT_AUTHORS">
+  <meta name="description" content="PROJECT_SHORT_DESCRIPTION">
+  <meta name="keywords" content="PROJECT_KEYWORDS, machine learning, artificial intelligence">
+  <meta name="author" content="PROJECT_AUTHORS">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1f4e79">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="PROJECT_LAB_OR_INSTITUTION">
+  <meta property="og:title" content="PROJECT_TITLE">
+  <meta property="og:description" content="PROJECT_SHORT_DESCRIPTION">
+  <meta property="og:url" content="PROJECT_PAGE_URL">
+  <meta property="og:image" content="PROJECT_PAGE_URL/static/images/social_preview.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PROJECT_TITLE">
+  <meta name="twitter:description" content="PROJECT_SHORT_DESCRIPTION">
+  <meta name="twitter:image" content="PROJECT_PAGE_URL/static/images/social_preview.png">
+
+  <meta name="citation_title" content="PROJECT_TITLE">
+  <meta name="citation_author" content="AUTHOR_LAST, AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="PROJECT_YEAR">
+  <meta name="citation_conference_title" content="PROJECT_VENUE">
+  <meta name="citation_pdf_url" content="PROJECT_PAPER_URL">
+
+  <title>PROJECT_TITLE - PROJECT_AUTHORS</title>
+
+  <link rel="icon" type="image/x-icon" href="static/images/urf.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/project-config.js"></script>
+  <script defer src="static/js/index.js"></script>
+</head>
+<body>
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+    <section class="hero publication-header">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title" data-project-text="title">PROJECT_TITLE</h1>
+
+              <div class="is-size-5 publication-authors" id="project-authors">
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block" data-project-text="institution">PROJECT_LAB_OR_INSTITUTION</span>
+                <span class="author-block publication-venue"><span data-project-text="venue">PROJECT_VENUE</span> <span data-project-text="year">PROJECT_YEAR</span></span>
+                <span class="eql-cntrb" id="equal-contribution-note"><small><br><sup>*</sup>Equal contribution</small></span>
+              </div>
+
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="PROJECT_PAPER_URL" target="_blank" class="external-link button is-normal is-rounded is-dark" data-project-href="paperUrl">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="PROJECT_CODE_URL" target="_blank" class="external-link button is-normal is-rounded is-dark" data-project-href="codeUrl">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="PROJECT_ARXIV_URL" target="_blank" class="external-link button is-normal is-rounded is-dark" data-project-href="arxivUrl">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="PROJECT_DATA_URL" target="_blank" class="external-link button is-normal is-rounded is-dark" data-project-href="dataUrl">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>Data</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <video id="teaser-video" autoplay controls muted loop playsinline preload="metadata">
+            <source src="static/videos/result_video.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered" data-project-text="teaserCaption">
+            PROJECT_TEASER_CAPTION. Replace this with a one-sentence summary of the main result shown above.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p data-project-text="abstract">
+                PROJECT_ABSTRACT. Replace this paragraph with your paper or project abstract. Keep the first sentence clear enough for visitors who only skim the page, then describe the method, core findings, and why the result matters.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered">Results</h2>
+        <div class="content has-text-justified">
+          <p data-project-text="resultsIntro">URF improves contact-rich manipulation by predicting both compliant actions and the controller behavior used to execute them. The following figures summarize the architecture and representative task results.</p>
+        </div>
+        <div class="result-sections" id="project-results">
+          <article class="result-block">
+            <img src="static/images/network_architecture.png" alt="Overview of the proposed URF network architecture and policy-control framework" loading="lazy">
+            <div class="result-text content has-text-justified">
+              <h3 class="title is-4">URF Network Architecture</h3>
+              <p>Overview of the proposed URF network architecture and policy-control framework.</p>
+            </div>
+          </article>
+          <article class="result-block">
+            <img src="static/images/main_result_v2.png" alt="Box-flipping comparison between ACP and URF" loading="lazy">
+            <div class="result-text content has-text-justified">
+              <h3 class="title is-4">Box-Flipping Result</h3>
+              <p>The top plot shows the virtual target and actual end-effector trajectories in the x-z plane. Time progression is encoded by a dark-to-light trajectory colormap. ACP fails due to end-tool breakage after contact, whereas URF completes the task. The middle plot shows the force norm over time, and the bottom plot shows the stiffness and switch-ratio predicted by URF.</p>
+            </div>
+          </article>
+          <article class="result-block">
+            <img src="static/images/line_following_result.png" alt="Line-following comparison between ACP and URF" loading="lazy">
+            <div class="result-text content has-text-justified">
+              <h3 class="title is-4">Line-Following Result</h3>
+              <p>The first row shows snapshots of the task execution, where the robot follows a line on a rigid surface while applying contact force. URF maintains a stable contact force and completes the task, whereas ACP exhibits large force oscillations before triggering a robot safety stop.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code data-project-text="bibtex">@inproceedings{projectkeyPROJECT_YEAR,
+  title={PROJECT_TITLE},
+  author={Author One and Author Two and Author Three},
+  booktitle={PROJECT_VENUE},
+  year={PROJECT_YEAR},
+  url={PROJECT_PAGE_URL}
+}</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content has-text-centered">
+            <p>
+              This page is based on the
+              <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>,
+              adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
