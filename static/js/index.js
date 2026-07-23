@@ -23,7 +23,7 @@ function applyProjectConfig() {
     const authorNames = config.authors.map(author => author.name).join(', ');
     const authorBibtex = config.authors.map(author => author.name).join(' and ');
     const pageUrl = hasLink(config.pageUrl) ? config.pageUrl : '';
-    const socialPreview = pageUrl ? `${pageUrl.replace(/\/$/, '')}/static/images/social_preview.png` : '';
+    const socialPreview = pageUrl ? `${pageUrl.replace(/\/$/, '')}/static/images/network_architecture.png` : '';
 
     document.title = `${config.title} - ${authorNames}`;
 
