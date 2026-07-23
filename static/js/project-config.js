@@ -22,7 +22,7 @@ window.PROJECT_CONFIG = {
     },
     {
       name: "Youngjin Seo",
-      url: "",
+      url: "https://scholar.google.com/citations?hl=en&user=RzqtgDQAAAAJ",
       equalContribution: false,
       citationName: "Seo, Youngjin"
     },
