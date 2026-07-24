@@ -89,11 +89,13 @@ window.PROJECT_CONFIG = {
       description: "Trajectory comparison in the line-pressing task.Each plot shows ten evaluation trajectories for each method overlaid with the reference line.ACP fails during execution due to force oscillation.URF w/ n=0.5 follows the reference reasonably well, but some trajectories leave the valid region.URF w/ n=0 shows larger tracking error and higher trajectory variance due to impedance-only execution, with occasional large deviations from the reference.URF tracks the reference accurately and succeeds in all trials."
     }
   ],
-  bibtex: `@inproceedings{projectkeyPROJECT_YEAR,
-  title={PROJECT_TITLE},
-  author={Author One and Author Two and Author Three},
-  booktitle={PROJECT_VENUE},
-  year={PROJECT_YEAR},
-  url={PROJECT_PAGE_URL}
+  bibtex: `@misc{shin2026urfunifiedrobotcontrolpolicy,
+      title={URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation}, 
+      author={Jiyou Shin and Youngjin Seo and Jaeseog Won and Sungwon Seo and Hyunjun Kim and Seokmin Yoon and Tuan Luong and Hyungpil Moon},
+      year={2026},
+      eprint={2607.20912},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2607.20912}, 
 }`
 };
