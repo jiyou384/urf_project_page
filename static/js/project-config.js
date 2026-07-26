@@ -6,7 +6,7 @@ window.PROJECT_CONFIG = {
   venue: "TBD",
   year: "",
   pageUrl: "https://jiyou384.github.io/urf_project_page/",
-  paperUrl: "TBD",
+  paperUrl: "https://arxiv.org/abs/2607.20912",
   codeUrl: "TBD",
   arxivUrl: "TBD",
   dataUrl: "TBD",
