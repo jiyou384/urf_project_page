@@ -16,7 +16,7 @@ window.PROJECT_CONFIG = {
   authors: [
     {
       name: "Jiyou Shin",
-      url: "https://scholar.google.com/citations?hl=en&user=woYSjOMAAAAJ",
+      url: "https://jiyou384.github.io/jiyou/",
       equalContribution: false,
       citationName: "Shin, Jiyou"
     },
