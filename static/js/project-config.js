@@ -40,13 +40,13 @@ window.PROJECT_CONFIG = {
     },
     {
       name: "Hyunjun Kim",
-      url: "",
+      url: "https://scholar.google.com/citations?user=u7UF0aMAAAAJ&hl=ko&oi=sra",
       equalContribution: false,
       citationName: "Kim, Hyunjun"
     },
     {
       name: "Seokmin Yoon",
-      url: "",
+      url: "https://scholar.google.com/citations?user=Zp5wO5sAAAAJ&hl=ko&oi=sra",
       equalContribution: false,
       citationName: "Yoon, Seokmin"
     },
